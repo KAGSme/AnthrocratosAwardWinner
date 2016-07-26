@@ -44,7 +44,9 @@ SourceArt/**/*.png
 SourceArt/**/*.tga
 
 # Binary Files
-Anthrocratos_UE4/Binaries/*
+#Anthrocratos_UE4/Binaries/*
+Anthrocratos_UE4/Binaries/Win64/*.pdb
+!Anthrocratos_UE4/Binaries/Win64/UE4Editor-Anthrocratos_UE4.dll
 
 # Builds
 Anthrocratos_UE4/Build/*
