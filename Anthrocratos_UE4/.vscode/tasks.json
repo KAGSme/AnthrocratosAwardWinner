@@ -1,0 +1,1247 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Anthrocratos_UE4 Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win32",
+				"Debug",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win32",
+				"Debug",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Anthrocratos_UE4 Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win32",
+				"Debug",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win32",
+				"DebugGame",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win32",
+				"DebugGame",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Anthrocratos_UE4 Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win32",
+				"DebugGame",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win32",
+				"Development",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win32",
+				"Development",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Anthrocratos_UE4 Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win32",
+				"Development",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win32",
+				"Shipping",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win32",
+				"Shipping",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Anthrocratos_UE4 Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win32",
+				"Shipping",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win32",
+				"Test",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win32",
+				"Test",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Anthrocratos_UE4 Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win32",
+				"Test",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win64",
+				"Debug",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win64",
+				"Debug",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Anthrocratos_UE4 Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win64",
+				"Debug",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win64",
+				"DebugGame",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win64",
+				"DebugGame",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Anthrocratos_UE4 Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win64",
+				"DebugGame",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win64",
+				"Development",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win64",
+				"Development",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Anthrocratos_UE4 Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win64",
+				"Development",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win64",
+				"Shipping",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win64",
+				"Shipping",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Anthrocratos_UE4 Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win64",
+				"Shipping",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win64",
+				"Test",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win64",
+				"Test",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Anthrocratos_UE4 Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Win64",
+				"Test",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"IOS",
+				"Debug",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"IOS",
+				"Debug",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Anthrocratos_UE4 IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"IOS",
+				"Debug",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"IOS",
+				"DebugGame",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"IOS",
+				"DebugGame",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Anthrocratos_UE4 IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"IOS",
+				"DebugGame",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"IOS",
+				"Development",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"IOS",
+				"Development",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Anthrocratos_UE4 IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"IOS",
+				"Development",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"IOS",
+				"Shipping",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"IOS",
+				"Shipping",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Anthrocratos_UE4 IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"IOS",
+				"Shipping",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"IOS",
+				"Test",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"IOS",
+				"Test",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Anthrocratos_UE4 IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"IOS",
+				"Test",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Android Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Android",
+				"Debug",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Android Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Android",
+				"Debug",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Anthrocratos_UE4 Android Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Android Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Android",
+				"Debug",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Android DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Android",
+				"DebugGame",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Android DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Android",
+				"DebugGame",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Anthrocratos_UE4 Android DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Android DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Android",
+				"DebugGame",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Android Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Android",
+				"Development",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Android Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Android",
+				"Development",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Anthrocratos_UE4 Android Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Android Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Android",
+				"Development",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Android Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Android",
+				"Shipping",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Android Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Android",
+				"Shipping",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Anthrocratos_UE4 Android Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Android Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Android",
+				"Shipping",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Android Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Android",
+				"Test",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Android Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Android",
+				"Test",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Anthrocratos_UE4 Android Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4 Android Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Anthrocratos_UE4",
+				"Android",
+				"Test",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4Editor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4Editor",
+				"Win64",
+				"Debug",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4Editor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4Editor",
+				"Win64",
+				"Debug",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Anthrocratos_UE4Editor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4Editor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Anthrocratos_UE4Editor",
+				"Win64",
+				"Debug",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4Editor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4Editor",
+				"Win64",
+				"DebugGame",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4Editor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4Editor",
+				"Win64",
+				"DebugGame",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Anthrocratos_UE4Editor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4Editor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Anthrocratos_UE4Editor",
+				"Win64",
+				"DebugGame",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4Editor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4Editor",
+				"Win64",
+				"Development",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4Editor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"Anthrocratos_UE4Editor",
+				"Win64",
+				"Development",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Anthrocratos_UE4Editor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		},
+		{
+			"label": "Anthrocratos_UE4Editor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"Anthrocratos_UE4Editor",
+				"Win64",
+				"Development",
+				"D:\\gamesDevelopment\\AnthrocratosAwardWinner\\Anthrocratos_UE4\\Anthrocratos_UE4.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\EpicGames\\UE_4.24"
+			}
+		}
+	]
+}
